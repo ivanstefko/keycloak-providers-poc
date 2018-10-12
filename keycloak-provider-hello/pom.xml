@@ -45,7 +45,7 @@
     <build>
         <finalName>keycloak-providers-hello-world</finalName>
 
-        <plugins>
+        <!--<plugins>-->
 
             <!--<plugin>-->
                 <!--<artifactId>maven-assembly-plugin</artifactId>-->
@@ -64,15 +64,15 @@
                 <!--</configuration>-->
             <!--</plugin>-->
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>2.3.1</version>
-                <configuration>
-                    <outputDirectory>C:/_TOOLS/KEYCLOAK/keycloak-4.5.0.Final/standalone/deployments</outputDirectory>
-                </configuration>
-            </plugin>
-        </plugins>
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-jar-plugin</artifactId>-->
+                <!--<version>2.3.1</version>-->
+                <!--<configuration>-->
+                    <!--<outputDirectory>C:/_TOOLS/KEYCLOAK/keycloak-4.5.0.Final/standalone/deployments</outputDirectory>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
 
     </build>
 </project>

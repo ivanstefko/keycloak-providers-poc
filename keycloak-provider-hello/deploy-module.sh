@@ -1,0 +1,1 @@
+C:/_TOOLS/KEYCLOAK/keycloak-4.5.0.Final/bin/jboss-cli.sh --command="module add --name=org.keycloak.examples.keycloak-providers-hello-world --resources=target/keycloak-providers-hello-world.jar --dependencies=org.keycloak.keycloak-core,org.keycloak.keycloak-services,org.keycloak.keycloak-server-spi,org.keycloak.keycloak-server-spi-private,javax.ws.rs.api"
