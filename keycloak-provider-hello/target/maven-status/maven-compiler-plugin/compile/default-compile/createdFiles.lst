@@ -1,0 +1,5 @@
+org\keycloak\examples\rest\ExampleResource.class
+org\keycloak\examples\rest\UserResource.class
+org\keycloak\examples\rest\Person.class
+org\keycloak\examples\rest\HelloResourceProviderFactory.class
+org\keycloak\examples\rest\HelloResourceProvider.class
